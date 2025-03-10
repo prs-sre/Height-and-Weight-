@@ -11,7 +11,7 @@ class Personal:   # give your Height and Weight
         result=[]
         for i in (self.x, self.y):
             result.append(i)
-            if (self.x , self.y) < (145 , 49):
+            if i < 145 and i < 49: 
                 print('your not accept '.capitalize())
                 break    
             return f'your value in list {result}'
